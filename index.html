@@ -1,26 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Biblioteca de Contenidos</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header>
-<h1>Biblioteca de Contenidos</h1>
-<p>Explora y filtra contenidos.</p>
-</header>
-
-<section class="filtros">
-<input type="text" id="buscar" placeholder="Buscar...">
-<select id="tema"><option value="">Todos los temas</option></select>
-<select id="formato"><option value="">Todos los formatos</option></select>
-<select id="tono"><option value="">Todos los tonos</option></select>
-</section>
-
-<div id="contenedor" class="grid"></div>
-
-<script src="script.js"></script>
-</body>
-</html>
+<!DOCTYPE html><html lang='es'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Una ola de candela</title><link rel='stylesheet' href='style.css'></head><body>
+<section class='hero'><div class='wrap'><h1>UNA OLA<br>DE CANDELA</h1><h2>Contenidos para mantener el frente digital vivo</h2><p>¿Te has sentido perdido en la marea de contenidos y se te perdió esa publicación que quieres enviarle a tu vecinx? Tranquilx, una ola de candela está aquí para ayudarte a organizar, filtrar y mantener los contenidos a la mano para que puedas consultarlos y compartirlos.</p></div></section>
+<section class='wrap'><input id='buscar' placeholder='🔍 Buscar contenidos'><div id='stats'></div><div id='chips'></div><button id='limpiar'>Limpiar filtros</button><div id='contador'></div><div id='contenedor' class='grid'></div></section>
+<div id='modal' class='modal'><div class='box'><span id='cerrar'>✕</span><div id='detalle'></div></div></div>
+<script src='script.js'></script></body></html>
