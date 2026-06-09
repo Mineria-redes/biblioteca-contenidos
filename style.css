@@ -1,1 +1,10 @@
 body{margin:0;background:#EAE8E8;font-family:Arial,sans-serif}.wrap{max-width:1100px;margin:auto;padding:16px 20px}.filterbar{display:flex;gap:16px;align-items:center}.dropdown{position:relative}.dropbtn{background:#fff;border:none;padding:12px 14px;border-radius:12px;color:#777}.menu{display:none;position:absolute;top:110%;left:0;background:#fff;padding:12px;border-radius:12px;min-width:240px;max-height:300px;overflow:auto;box-shadow:0 8px 24px rgba(0,0,0,.15);z-index:1000}.menu.open{display:block}.chip{display:inline-block;background:#fff;padding:6px 10px;border-radius:999px;margin:3px}.chip button{border:none;background:none;cursor:pointer}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#fff;border-radius:18px;padding:22px}.tag{display:inline-block;padding:4px 8px;border-radius:999px;font-size:.72rem;margin:2px}.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7)}.box{background:#fff;max-width:700px;margin:5vh auto;padding:24px}
+.hero{padding-top:24px;padding-bottom:4px}
+.hero h1{font-size:3.6rem;line-height:.9;margin:0;font-weight:900}
+.hero p{max-width:760px;margin-bottom:12px}
+#buscar{width:100%;padding:16px;border:none;border-radius:14px}
+#contador{font-size:.95rem;color:#555;margin:8px 0 14px}
+.card h3{font-size:1.15rem}
+.meta,.tono{margin-top:8px}
+.moreinfo{display:inline-block;margin-top:14px;color:#555;text-decoration:underline;cursor:pointer}
+.menu label{display:block;padding:4px 0}
